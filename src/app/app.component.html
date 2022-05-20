@@ -1,0 +1,19 @@
+<mat-toolbar class='tulbar'>
+  <mat-toolbar-row>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+
+      <button mat-flat-button class="link" [routerLink]="['company-profile/about']" routerLinkActive="active">About</button>
+      <button mat-flat-button class="link" [routerLink]="['company-profile/careers']" routerLinkActive="active">Careers</button>
+      <button mat-flat-button class="link" [routerLink]="['company-profile/client']" routerLinkActive="active">Clients</button>
+      <button mat-flat-button class="link" [routerLink]="['company-profile/contact']" routerLinkActive="active">Contact</button>
+      <button mat-flat-button class="link" [routerLink]="['company-profile/news']" routerLinkActive="active">News</button>
+      <button mat-flat-button class="link" [routerLink]="['company-profile/projects']" routerLinkActive="active">Project</button>
+      <button mat-flat-button class="link" [routerLink]="['company-profile/services']" routerLinkActive="active">Services</button>
+  </mat-toolbar-row>
+
+</mat-toolbar>
+
+<div class="container-fluid">
+  <router-outlet></router-outlet>
+</div>

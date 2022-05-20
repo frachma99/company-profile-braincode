@@ -1,0 +1,102 @@
+[
+    {
+        "title": "Internet Monitoring",
+        "details": {
+            "codeName": "im",
+            "title": "Internet Monitoring",
+            "background": "Internet Monitoring describes a system that constantly monitors the network conditions of routers, servers, and other devices in a company such as this project is Telkomsel. If a network system occurs error, down, and unstable the system will later notify the administrator of software / IM systems thatuse internet management, so that the network can work optimally.",
+            "objective": "Network monitoring is gathering useful information from various parts of the network so that the network can be regulated and controlled using the information that has been collected. Some of the main reasons for doing network monitoring are:"
+        },
+        "title2": "Cooporate Account Management",
+        "details2": {
+            "codeName": "cam",
+            "title": "Cooporate Account Management",
+            "background": "This dashboard is very helpful for the company that registered as VVIP APN on CAM. They can manage and monitoring flow data usage of their own for more benefit. CAM is a useful tool for corporate that required data monitoring and management",
+            "objective": "Corporate Account Management ( CAM ) is a dashboard to monitoring and manage APN that registered by admin. There are 20 VVIP APN that will updated every 5 minutes and also alarm feature related to APN",
+            "objective2": "20 Corporate APN that registered on CAM will get 6 information include ; Active PDP, PDPSR, Throughput, Ping Loss, Ping Jitter, Ping Rtt"
+        }
+    },
+    {
+        "title": "GeISA",
+        "details": {
+            "codeName": "geisa",
+            "title": "GeISA",
+            "background": "Geospecific Network Information for Spatial Analytic (GeISA) is an integrated web application for reporting, visualizing, and monitoring KPI achievement for Network Directorate in Telkomsel. Current project has been successfully delivering valuable information to support monitoring of Network KPI achievement. Based on further review and evaluation of this application, there are several capabilities that should be embedded to this application.",
+            "objective": "GeISA is now used by many entities in Telkomsel, with main Objective such as :",
+            "objective2": "As an integrated web application for reporting, visualizing, and monitoring KPI achievement for network directorate in Telkomsel. There are 5 Main Features on GeISA"
+        },
+        "title2": "GAG NIKEL E-PROCUREMENT",
+        "details2": {
+            "codeName": "e-proc",
+            "title": "GAG NIKEL E-PROCUREMENT",
+            "background": "GAG Nikel E-Procurement and Purchase is another example project that we also have capability to handle ERP system. It helps GAG Nikel employee to manage vendor management system, It helps procurement staff to create order, buy things and view inventory from their data. This App will also help procurement staff provide availability of logistic stock for other GAG Nikel staff.",
+            "objective": "To achieve services, optimization, and efforts to improve ICT implementation better, then one example of the best step is to improve and optimize network infrastructure. Network infrastructure development is not impossible, it can even be done regularly. Therefore, the procurement process has not been recorded at PT. Nikel GAG requires companies to implement an online procurement system (E-Procurement) and structured according to the required procurement system",
+            "objective2": "A large-scale company must be wiser in handling procurement problems to a company's needs, both food and infrastructure needs, in order to avoid undesirable things such as KKN, and other negligence. Therefore, the best aspects for the company from running this application are as follows:"
+        }
+    },    
+    {
+        "title": "Mandiri Sales KPI Engine",
+        "details": {
+            "codeName": "mandiri-kpi",
+            "title": "Mandiri Sales KPI Engine",
+            "background": "Business processes at the Bank Mandiri branch as the main touch point channel with customers in the retail segment play an important role. The lead management method can support staff efforts at the branch to create new businesses through several product offerings and marketing programs. Each product owner (consumer banking) at Bank Mandiri currently creates and distributes the data leads separately and directly to the segment owners in each region using their respective distribution systems.",
+            "objective": "With the need for control that can track sales activities, measure Sales Representative performance, and monitor the recording and changing rules, a System that can calculate and measure Sales Representative performance automatically is needed. The following are details of the system capabilities needed:"
+        },
+        "title2": "IPRAN",
+        "details2": {
+            "codeName": "ipran",
+            "title": "IPRAN",
+            "background": "IPRAN (Internet Protocol Radio Access Network) is a dashboard from NMS project that helps Telkomsel user and staff to monitoring IP (Internet Protocol) from RAN based. IPRAN Making it easier for administrators to monitor IPRAN in Indonesia both providing topology, OSDF, Cacti Page and Link Down information.",
+            "objective": ""
+        }
+    },
+    {
+        "title": "BIG DATA",
+        "details": {
+            "codeName": "big-data",
+            "title": "BIG DATA",
+            "background": "Since the automation for data collection and validation started to be implemented in 2018, it requires machine-to-machine interfacing between measurement Tools and integration platform. The common native PMs have their data interface scheduler or Big data ready but some of them still have to direct connection to the OSS database for data reliability reason. Unfortunately, A few of them only have traditional GUI without scheduler that need manual interaction to collect the measurement.",
+            "objective": "In this Project the Main Objectives that needs by Telkomsel Directorate. Such as :",
+            "objective2": "Vas In Big Data  is the automate process of making all Big Data reports in hourly, daily and monthly reports and displaying these reports in the form of web reports. With Retrieve raw data from data sources automatically using a script, Processing or aggregation of raw data into reports, Display data that has been processed or aggregated in the form of a web / dashboardVas In Big Data  is the automate process of making all Big Data reports in hourly, daily and monthly reports and displaying these reports in the form of web reports."
+        },
+        "title2": "GAG NIKEL E-OPERATION",
+        "details2": {
+            "codeName": "e-operation",
+            "title": "GAG NIKEL E-OPERATION",
+            "background": "Gag E-Operation is a project that changes the reporting system that was originally a manual work to be automatic in the form of applications. This project is one example that uses ERP Systems. With advancing technology and digitalization penetrating every aspect of modern life, as well as the fact that Indonesia is trying to achieve the Industrial Revolution 4.0, the simplified integration of data and company processes is a must. With great will and ideas, the GAG OPERATION mobile app and the web dashboard are one of the implementations for the realization of a convenient mining process. In the early stages of this development, the on-site mining process is the core of GAG OPERATION. Thus, our priority now is to collect all the data needed and develop applications with a web-based dashboard",
+            "objective": "GAG Operation has the aim to simplify work starting from recording production and sales capacity, can track the work carried out by existing site employees, and can be directly controlled by the supervisor and directors of PT GAG Nickel from a distance. The point is aimed at the process of digitizing data mining."
+        }
+    },
+    {
+        "title": "GAG E-Finance",
+        "details": {
+            "codeName": "e-finance",
+            "title": "GAG E-Finance",
+            "background": "GAG Nikel E-Finance Project is the accounting software that would help Finance Division of GAG Nikel to integrate and record all financial report and data to on.e application, with big vision to integrate all financial division report, also to connect with all previous project that GAG Nikel and Braincode had cover such as GAG E-Procurement and GAG E-Operation. With advance technology that always evolve everyday, data integration is necessary for a company with dreams and spirit to reach Industrial Revolution 4.0. The purpose of this project is obvious, to integrate all finance data from the current state to more digitalize and easy to handle. Also, to manage and monitor all the financial report and progress because we all know that finance division in every company is the most crucial aspect for sustainability of itself.",
+            "objective": "In this Project the Main Objectives that needs by GAG Nikel Directorate. Such as :"
+        },
+        "title2": "NMS IP Backbone",
+        "details2": {
+            "codeName": "ip-backbone",
+            "title": "NMS IP Backbone",
+            "background": "Network monitoring in terms of routers if a link-down occurs on a router, there will be a notification from the dashboard of IPBB that the linkdown condition and notify the cause and other routers affected by the core router. Then, displaying the top 10 high utilization routers from all over Indonesia",
+            "objective": "In this Project the Main Objectives that needs by Telkomsel Directorate. Such as:"
+        }
+    },
+    {
+        "title": "Mandiri NBS Automation",
+        "details": {
+            "codeName": "nbs-automation",
+            "title": "Mandiri NBS Automation",
+            "background": "In reporting on products and customers that are done manually. The length of time it takes to work because each report is obtained from a variety of data sources, requires the construction of a reporting system automatically. This will greatly assist the staff in submitting reports at the top level Manager.",
+            "objective": "The following are the expected impacts with the Reporting Engine system:"
+        },
+        "title2": "NMS Availability",
+        "details2": {
+            "codeName": "nms-avail",
+            "title": "NMS Availability",
+            "background": "The background of dashboard availability is monitoring the availability of NMS clients such as link reports and all services in the OSSera dump file monitoring the performance of engineering that installs and maintains devices and interfaces. This affects the alarm when the link is down.",
+            "objective": ""
+        }
+    }
+]

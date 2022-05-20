@@ -1,0 +1,75 @@
+.bungkus-login {
+    margin: 2% 0 0 0;
+    // max-width: none;
+    width: 60%;
+}
+
+.judul {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.merah {
+    color: red;
+}
+
+.ijo {
+    color: #58b794;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+button {
+    font-weight: 100;
+    border-width: 2px;
+    border-radius: 9px;
+    outline: 0;
+}
+
+.login-button {
+    width: 200px;
+    color: #fff;
+    background-color: #58b794;
+}
+
+.email {
+    margin: 10px;
+}
+
+.loading-indicator {
+    width: 20px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -27px;
+}
+
+mat-icon {
+    &.google-icon {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-image: url("../../assets/logo/google.png");
+    }
+    &.facebook-icon {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-image: url("../../assets/logo/fb.png");
+    }
+}
+
+.facebook-btn,
+.google-btn {
+    border-color: #58b794;
+    color: #58b794;
+}

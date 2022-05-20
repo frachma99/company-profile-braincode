@@ -1,0 +1,26 @@
+[
+    {
+        "project": "GeISA",
+        "open_task": 40,
+        "all_task": 55,
+        "close_task": 60
+    },
+    {
+        "project": "Goorita",
+        "open_task": 30,
+        "all_task": 78,
+        "close_task": 69
+    },
+    {
+        "project": "Mandiri",
+        "open_task": 27,
+        "all_task": 40,
+        "close_task": 45
+    },
+    {
+        "project": "GAG",
+        "open_task": 50,
+        "all_task": 33,
+        "close_task": 22
+    }
+]

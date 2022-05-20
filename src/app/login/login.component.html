@@ -1,0 +1,118 @@
+<login-bg>
+    <div class="container bungkus-login">
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <h1 class="judul">
+                    Ship worldwide with goorita, save up to <span class="merah">75% </span> on shipping!
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <mat-card>
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-auto">
+                            <h3>Please login to continue </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto md-auto">
+                            <p>Use one of these</p>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <button mat-stroked-button class="google-btn">
+                                        <mat-icon matSuffix class='google-icon'></mat-icon> Google
+                                    </button>
+                                </div>
+                                <div class="col-auto">
+                                    <button mat-stroked-button class="facebook-btn">
+                                        <mat-icon matSuffix class='facebook-icon'></mat-icon>
+                                        Facebook
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto md-auto">
+                            <p>Or enter your email</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-auto md-auto">
+                            <mat-form-field appearance="outline" class="email">
+                                <!-- <input #usernameInputElm matInput placeholder="Email Address" id="form1"
+                                    [ngModel]="(login.state$ | async)?.inputUsername"
+                                    (ngModelChange)="login.setDebounceInputUsername($event)"
+                                    (blur)="this.formBlurAnimate()" class="login-input-form"
+                                    pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"> -->
+                                    <mat-label>Email Address</mat-label>
+                                <input #emailInput matInput placeholder="Ex. pat@example.com" id="form1"
+                                    [ngModel]="(login.state$ | async)?.inputUsername"
+                                    (ngModelChange)="login.setDebounceInputUsername($event)"
+                                    (blur)="this.formBlurAnimate()" class="login-input-form"
+                                    [formControl]="emailFormControl">
+                                <mat-error
+                                    *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                                    Please enter a valid email address
+                                </mat-error>
+                                <mat-error *ngIf="emailFormControl.hasError('required')">
+                                    Email is <strong>required</strong>
+                                </mat-error>
+                            </mat-form-field>
+                            
+                            <mat-form-field appearance="outline">
+                                <mat-label>Password</mat-label>
+                                <input #passwordInput matInput placeholder="" id="form2"
+                                    (ngModelChange)="login.setDebounceInputPassword($event)"
+                                    [ngModel]="(login.state$ | async)?.inputPassword" [type]="hide ?
+                                                    'password' : 'text'" (blur)="this.formBlurAnimate()"
+                                    (keyup.enter)="onSubmit(emailInput.value, passwordInput.value)"
+                                    class="login-input-form">
+                                <button mat-icon-button matSuffix (click)="hide = !hide"
+                                    [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide"
+                                    class="password-visibility">
+                                    <mat-icon style="font-size: initial;">
+                                        {{hide ? 'visibility_off' : 'visibility'}}
+                                    </mat-icon>
+                                </button>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row">
+                        <div class="col-auto md-auto">
+                            <mat-checkbox [(ngModel)]="ceked">
+                                I agree with Goorita <span class="ijo">Terms of Service</span>
+                            </mat-checkbox>
+                        </div>
+                    </div> -->
+
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-auto form-group">
+                            <button [style.opacity]="(this.login.state$ | async).loginStatus == 'signing-in'? 0.7 : 1 "
+                                type="submit"  mat-flat-button class='login-button'
+                                (click)="onSubmit(emailInput.value, passwordInput.value)">
+                                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                                Login
+                            </button>
+                            <!-- <button [style.opacity]="(this.login.state$ | async).loginStatus == 'signing-in'? 0.7 : 1 "
+                                type="submit" [disabled]="!emailFormControl.valid" mat-flat-button class='login-button'
+                                (click)="onSubmit(emailInput.value, passwordInput.value)">
+                                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                                Login
+                            </button> -->
+                            <img *ngIf="(this.login.state$ | async).loginStatus == 'signing-in'"
+                                class="loading-indicator" src="assets/icon/gif/cupertino_activity_indicator.gif">
+                        </div>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+
+    </div>
+</login-bg>

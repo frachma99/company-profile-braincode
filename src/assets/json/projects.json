@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Internet Monitoring",
+        "details": {
+            "title": "Internet Monitoring",
+            "background": "Internet Monitoring describes a system that constantly monitors the network conditions of routers, servers, and other devices in a company such as this project is Telkomsel. If a network system occurs error, down, and unstable the system will later notify the administrator of software / IM systems thatuse internet management, so that the network can work optimally.",
+            "objective": "Network monitoring is gathering useful information from various parts of the network so that the network can be regulated and controlled using the information that has been collected. Some of the main reasons for doing network monitoring are:"
+        }
+    },
+    {
+        "title": "Cooporate Account Management",
+        "details": {
+            "title": "Cooporate Account Management",
+            "background": "Corporate Account Management ( CAM ) is a dashboard to monitoring and manage APN that registered by admin. There are 20 VVIP APN that will updated every 5 minutes and also alarm feature related to APN",
+            "objective": ""
+        }
+    },
+    {
+        "title": "GeISA",
+        "details": {
+            "title": "GeISA",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "GAG NIKEL E-PROCUREMENT",
+        "details": {
+            "title": "GAG NIKEL E-PROCUREMENT",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "Mandiri Sales KPI Engine",
+        "details": {
+            "title": "Mandiri Sales KPI Engine",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "IPRAN",
+        "details": {
+            "title": "IPRAN",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "BIG DATA",
+        "details": {
+            "title": "BIG DATA",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "GAG NIKEL E-OPERATION",
+        "details": {
+            "title": "GAG NIKEL E-OPERATION",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "GAG E-Finance",
+        "details": {
+            "title": "GAG E-Finance",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "NMS IP Backbone",
+        "details": {
+            "title": "NMS IP Backbone",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "Mandiri NBS Automation",
+        "details": {
+            "title": "Mandiri NBS Automation",
+            "background": "",
+            "objective": ""
+        }
+    },
+    {
+        "title": "NMS Availability",
+        "details": {
+            "title": "NMS Availability",
+            "background": "",
+            "objective": ""
+        }
+    }
+]

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body-title {
+  height: 100%;
+}
+
+.bg-wrapper {
+  object-fit: cover;
+  object-position: 50%;
+  height: 650px;
+  width: 90%;
+  opacity: 0.8;
+  // height: 8%;
+  // width: 90%;
+}
+
+// .bg-wrapper{
+//   margin-top: auto;
+//   background-image: url(./login-bg.jpg);
+//   background-color: grey; ;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   height: 100%;
+// }
+.h1 {
+  color: #393982;
+
+  .mainin {
+    margin: 0 auto;
+  }
+
+  .card-fluid-1 {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.us {
+  font-style: normal;
+  color: #000000;
+}
+
+.h2 {
+  color: #393982;
+}
+
+.display-1 {
+  color: white;
+  position: absolute;
+  text-shadow: blue 3px 5px 8px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-2 {
+  text-align: center;
+  color: #393983;
+}
+
+.container {
+  color: #fefefe;
+}
+
+.card-img-top {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.card-img-top-1 {
+  margin: 0 auto;
+  display: block;
+}
+
+.carousal-main {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.card {
+  display: inline-block;
+  background: #FFF;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: inset -1px 4px 8px #393982;
+  cursor: pointer;
+}
+
+.carousel-item {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-color: white;
+
+}
+
+.mat-parent {
+  background-color: white;
+  margin-top: 6%;
+  width: 100%;
+  margin-left: 10%;
+  /*background-image: url("/assets/img/bg1.jpg");*/
+}
+
+.mat-parent-small {
+  display: none;
+}
+
+/*for ipad and other lage tabs*/
+@media only screen and (max-width: 100%) {
+  .mat-parent-small {
+    display: block;
+  }
+  .mat-parent {
+    display: none;
+  }
+  .mat-parent-small {
+    background-color: white;
+    margin-top: 19%;
+    width: 96%;
+    margin-left: 2%;
+    position: relative;
+    height: 660px;
+    padding-bottom: 10%;
+
+  }
+  .carousel-item {
+    height: 596px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+
+  }
+  .example-card {
+    max-width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 0 3px 6px rgba(#ACC0E9, .5);
+  }
+}
+
+/*for mobile devices*/
+@media only screen and (max-width: 500px) {
+  .mat-parent-small {
+    display: block;
+  }
+  .mat-parent {
+    display: none;
+  }
+  .mat-parent-small {
+    background-color: white;
+    margin-top: 19%;
+    width: 96%;
+    margin-left: 2%;
+    position: relative;
+    height: 440px;
+    padding-bottom: 10%;
+    /*background-image: url("/assets/img/bg1.jpg");*/
+  }
+  .carousel-item {
+    height: 385px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+
+  }
+  .example-card {
+    max-width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 0 3px 6px rgba(#ACC0E9, .5);
+  }
+}
+
+.jumbotron {
+  margin-top: 5px;
+  background-image: url("/assets/icon/login-bg.jpg");
+  background-size: cover;
+}

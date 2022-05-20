@@ -1,0 +1,47 @@
+[
+    {
+        "project": "Mandiri",
+        "progress": 100,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/6498761/Bank-Mandiri-Logo-Vector-Image.png"
+    },
+    {
+        "project": "BigData",
+        "progress": 100,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/4358095/logo-bigdata.png"
+    },
+    {
+        "project": "GeISA",
+        "progress": 90,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/9088784/gis.png"
+    },
+    {
+        "project": "APN",
+        "progress": 86,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/6940612/Database-Download-PNG.png"
+    },
+    {
+        "project": "Kiosk",
+        "progress": 67,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/8865203/620a2ed908cf82091971f59979c40571.png"
+    },
+    {
+        "project": "Goorita",
+        "progress": 40,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/8652008/goorita-icon.png"
+    },
+    {
+        "project": "NMS",
+        "progress": 30,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/4421856/nms.png"
+    },
+    {
+        "project": "Management",
+        "progress": 13,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/7140814/Screenshot_1.png"
+    },
+    {
+        "project": "IAI",
+        "progress": 5,
+        "image": "https://gitlab.com/uploads/-/system/group/avatar/9365997/IAI_icon.jpg"
+    }
+]

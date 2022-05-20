@@ -1,0 +1,48 @@
+<div class="container">
+    <h1 style="text-align: center;" class="service-title">{{title}}</h1>
+
+    <img style="height: 400px; width: 800px; margin-bottom: 20px;" src="assets\background\login-bg.jpg" alt="Internet Monitoring">
+
+    <h2>{{subTitle}}</h2>
+
+    <p>
+        {{content}}
+    </p>
+    <p>
+        {{content2}}
+    </p>
+    <p>
+        {{content3}}
+    </p>
+
+    <div *ngIf="code == 'es'">
+        <p>ERP software is important because it can facilitate the following:</p>
+
+        <ul>
+            <li>Increase effective communication between departments</li>
+            <li>Allow employees to access information they need from anywhere</li>
+            <li>Streamline processes across various department</li>
+            <li>Provide a birds eye view of a business&#39; overall operations</li>
+            <li>Better manage a company&#39;s finances</li>
+        </ul>
+        <p>
+            These benefits lead to higher productivity, more efficient operations, and reduced errors.<br />ERP can be beneficial from a marketing standpoint because it helps you see how your business is doing as a whole, revealing areas of opportunity where improvements can be made. ERP provides valuable data and analytics that will help you understand your customers better and will give you insight that you can use to tailor your marketing strategy. It also makes it easier to communicate effectively with your customers and provide better customer service.
+        </p>
+    </div>
+
+    <div *ngIf="code == 'ew'">
+        <h2>Pillars of a great eCommerce experience</h2>
+        <p>
+            An eCommerce site is not just another website. Multiple business-critical elements need to be executed properly in order to ensure a strong return on your investment. &nbsp;
+        </p>
+        <p>
+            <strong>A seamless shopping experience. </strong>An eCommerce build must make shopping easy and secure. Pages must load quickly and reliably, with a consistent look and feel, compelling content, and search functionality that meets users&rsquo; needs and expectations.
+        </p>
+        <p>
+            <strong>The right integrations. </strong>A static site that&rsquo;s disconnected from your business ecosystem creates data entry work for employees, and irritates customers with out-of-date information and limited features.
+        </p>
+        <p>
+            <strong>Interaction and personalization.</strong> Customers expect sites to &ldquo;remember&rdquo; them with features such as product recommendations, promos, and a tailored, content-rich experience. And as a customer-facing channel, the richest eCommerce experiences offer ready access to real-time support such as live chat.
+        </p>
+    </div>
+</div>

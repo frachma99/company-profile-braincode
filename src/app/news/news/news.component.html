@@ -1,0 +1,47 @@
+<ngb-carousel class="carousel-container">
+  <ng-template ngbSlide *ngFor="let news of newsContent">
+    <div class="picsum-img-wrapper">
+      <img [src]="images[0]" class="img-carousel" alt="Random first slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>{{news.title}}</h3>
+      <p>{{news.content | limitTo: 150}}</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+
+<div class="container">
+  <h1> News </h1>
+
+  <div *ngFor="let news of newsContent" (click)="seeDetail(news.title, news.content)">
+    <div class="rowspan">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="/assets/background/1.jpg" class="img-thumbnail" alt="...">
+            <h5 class="card-title">{{news.title}}</h5>
+            <p class="card-text">{{news.content | limitTo: 90}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>

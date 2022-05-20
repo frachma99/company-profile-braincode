@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  padding: 60px 9px 0 15px;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding: 30px 9px 40px 15px;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+h1,
+h2 {
+  color: rgb(15, 14, 66);
+}
+
+img {
+  width: 200px;
+}
+
+.container {
+  padding-top: 50px;
+  position: relative;
+}
+
+.col-md-6,
+.jumbotron {
+  border-radius: 20px;
+}
+
+.col-md-6:hover {
+  box-shadow: inset -1px 2px 3px 3px #000;
+  cursor: pointer;
+  transition: 0.5 ease;
+}
+
+.telkomsel {
+  // vertical-align: middle;
+  // text-align: center;
+  display: block;
+  margin-top: 12%;
+}
+
+.indosat {
+  margin-top: 10px;
+}
+
+.gag {
+  margin-top: 7%;
+}
+
+.mandiri {
+  margin-top: 10px;
+}
+
+.thumbnail {
+  border: none;
+}
+
+.overlay {
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  color: white;
+  margin-left: -15px;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.container-1 {
+  position: relative;
+}
+
+.container-1:hover .overlay {
+  opacity: 1;
+}

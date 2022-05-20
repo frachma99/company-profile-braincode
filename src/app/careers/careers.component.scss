@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@480&display=swap");
+
+.bg {
+  object-fit: cover;
+  object-position: 50% 50;
+
+  height: 500px;
+  width: 100%;
+
+  filter: brightness(20%);
+}
+
+.container-fluid {
+  margin-top: 30px;
+  font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.card {
+  border-radius: 2.5vh;
+  border-width: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.bi-arrow-down-right-circle {
+  float: left;
+  margin-right: 20px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", Arial, sans-serif;
+}
+
+h1 {
+  position: absolute;
+  font-size: 50px;
+  color: whitesmoke;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 5vh;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+h4 {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+.isi {
+  margin-left: 65px;
+  text-align: justify;
+  font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.kumpul {
+  cursor: pointer;
+}
+
+.jarak {
+  margin-top: 45px;
+}
+
+.jarak-1 {
+  margin-top: 30px;
+}
+
+.btn {
+  margin-top: 12px;
+  height: 50px;
+  width: 110px;
+  font-size: 15px;
+}
+
+.form-control {
+  height: 35px;
+}
+
+span::before {
+  content: "Join Us!";
+  animation: animate infinite 4s;
+}
+
+@keyframes animate {
+  50% {
+    content: "We Need You!";
+  }
+}

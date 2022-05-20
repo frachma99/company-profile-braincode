@@ -1,0 +1,1011 @@
+[
+    {
+        "project_name": "GeiSA Project",
+        "description": "GeiSA Project Description",
+        "avatar_url": "https://gitlab.com/uploads/-/system/group/avatar/9088784/gis.png",
+        "progress_percent": 80,
+        "all_task": 100,
+        "closed_task": 70,
+        "opened_task": 20,
+        "comment_count": 15,
+        "commit_count": 10,
+        "member": [
+            {
+                "id": "201",
+                "name": "Aditira Jamhuri",
+                "user_name": "aditiraJamhuri",
+                "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png?width=40",
+                "web_url": "https://gitlab.com/aditirajamhuri",
+                "access_level": 50,
+                "all_task": 20,
+                "closed_task": 10,
+                "opened_task": 10,
+                "comment_count": 8,
+                "commit_count": 12
+            },
+            {
+                "id": "202",
+                "name": "Alvin Masykur",
+                "user_name": "avnmr.am",
+                "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/1150814/avatar.png?width=40",
+                "web_url": "https://gitlab.com/avnmr.am",
+                "access_level": 40,
+                "all_task": 30,
+                "closed_task": 28,
+                "opened_task": 2,
+                "comment_count": 4,
+                "commit_count": 31
+            },
+            {
+                "id": "203",
+                "name": "Azhe-kun",
+                "user_name": "Azhe403",
+                "avatar_url": "https://secure.gravatar.com/avatar/b8c7743d2c109852ee31ae4ac00923e8?s=80&d=identicon",
+                "web_url": "https://gitlab.com/Azhe403",
+                "access_level": 40,
+                "all_task": 23,
+                "closed_task": 20,
+                "opened_task": 3,
+                "comment_count": 12,
+                "commit_count": 40
+            }
+        ],
+        "milestone": [
+            {
+                "title": "FE GeISA Project",
+                "milestone_id": "111",
+                "description": "FE GeISA Project for Refactoring Feature",
+                "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 16.67,
+                "all_task": 60,
+                "closed_task": 10,
+                "opened_task": 50,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample enam"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tujuh"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample delapan"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "BE GeISA Project",
+                "milestone_id": "112",
+                "description": "FE GeISA Project for Refactoring Feature",
+                "avatar_url": "https://gitlab.com/uploads/-/system/project/avatar/15417511/sop-softegra.png",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 62.50,
+                "all_task": 40,
+                "closed_task": 25,
+                "opened_task": 15,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Documentation Milestone Softegra",
+                "milestone_id": "113",
+                "description": "Softegra Project",
+                "avatar_url": "https://gitlab.com/uploads/-/system/project/avatar/15417511/sop-softegra.png",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 80.00,
+                "all_task": 100,
+                "closed_task": 80,
+                "opened_task": 30,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "project_name": "Goorita Project",
+        "description": "Goorita Project Description",
+        "avatar_url": "https://gitlab.com/uploads/-/system/group/avatar/8652008/goorita-icon.png?width=88",
+        "progress_percent": 40,
+        "all_task": 100,
+        "closed_task": 40,
+        "opened_task": 60,
+        "comment_count": 19,
+        "commit_count": 20,
+        "member": [
+            {
+                "id": "204",
+                "name": "Fatih",
+                "user_name": "fatih_at_isid",
+                "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/1701986/avatar.png?width=40",
+                "web_url": "https://gitlab.com/fatih_at_isid",
+                "access_level": 40,
+                "all_task": 44,
+                "closed_task": 30,
+                "opened_task": 14,
+                "comment_count": 55,
+                "commit_count": 80
+            },
+            {
+                "id": "205",
+                "name": "Ramdani",
+                "user_name": "iramdan461",
+                "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/3393421/avatar.png?width=40",
+                "web_url": "https://gitlab.com/iramdan461",
+                "access_level": 40,
+                "all_task": 12,
+                "closed_task": 10,
+                "opened_task": 2,
+                "comment_count": 3,
+                "commit_count": 30
+            }
+        ],
+        "milestone": [
+            {
+                "title": "FE Goorita Project",
+                "milestone_id": "114",
+                "description": "FE GeISA Project for Refactoring Feature",
+                "avatar_url": "https://gitlab.com/uploads/-/system/project/avatar/15417511/sop-softegra.png",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 80.00,
+                "all_task": 25,
+                "closed_task": 20,
+                "opened_task": 5,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample enam"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tujuh"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample enam"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tujuh"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample delapan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "BE Goorita Project",
+                "milestone_id": "115",
+                "description": "FE GeISA Project for Refactoring Feature",
+                "avatar_url": "https://gitlab.com/uploads/-/system/project/avatar/15417511/sop-softegra.png",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 71.43,
+                "all_task": 70,
+                "closed_task": 50,
+                "opened_task": 20,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample enam"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample enam"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Document Milestone Softegra",
+                "milestone_id": "116",
+                "description": "Softegra Project",
+                "avatar_url": "https://gitlab.com/uploads/-/system/project/avatar/15417511/sop-softegra.png",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 62.50,
+                "all_task": 80,
+                "closed_task": 50,
+                "opened_task": 30,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample enam"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "project_name": "Big Data Project",
+        "description": "Big Data Project Description",
+        "avatar_url": "https://gitlab.com/uploads/-/system/group/avatar/4358095/logo-bigdata.png",
+        "progress_percent": 100,
+        "all_task": 103,
+        "closed_task": 103,
+        "opened_task": 0,
+        "comment_count": 100,
+        "commit_count": 500,
+        "member": [
+            {
+                "id": "206",
+                "name": "Yahya Ayyash",
+                "user_name": "yahyaayyashn",
+                "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/1150806/avatar.png?width=40",
+                "web_url": "https://gitlab.com/yahyaayyashn",
+                "access_level": 40,
+                "all_task": 27,
+                "closed_task": 27,
+                "opened_task": 0,
+                "comment_count": 23,
+                "commit_count": 22
+            },
+            {
+                "id": "207",
+                "name": "dede",
+                "user_name": "dede777",
+                "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/4265019/avatar.png?width=40",
+                "web_url": "https://gitlab.com/dede777",
+                "access_level": 50,
+                "all_task": 34,
+                "closed_task": 4,
+                "opened_task": 30,
+                "comment_count": 60,
+                "commit_count": 5
+            }
+        ],
+        "milestone": [
+            {
+                "title": "FE Big Data Project",
+                "milestone_id": "117",
+                "description": "FE Big Data Project for Refactoring Feature",
+                "avatar_url": "https://gitlab.com/uploads/-/system/project/avatar/15417511/sop-softegra.png",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 44.44,
+                "all_task": 90,
+                "closed_task": 40,
+                "opened_task": 50,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "BE Big Data Project",
+                "milestone_id": "118",
+                "description": "FE Big Data Project for Refactoring Feature",
+                "avatar_url": "https://gitlab.com/uploads/-/system/project/avatar/15417511/sop-softegra.png",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 33.33,
+                "all_task": 30,
+                "closed_task": 10,
+                "opened_task": 20,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Documentation Milestone Softegra",
+                "milestone_id": "119",
+                "description": "Softegra Project",
+                "avatar_url": "https://gitlab.com/uploads/-/system/project/avatar/15417511/sop-softegra.png",
+                "state": "active",
+                "created_at": "2020-04-23T07:31:37.649Z",
+                "updated_at": "2020-04-23T07:31:37.649Z",
+                "due_date": "2020-12-31",
+                "start_date": "2020-04-23",
+                "expired": false,
+                "web_url": "https://gitlab.com/groups/softegra-sinergi/-/milestones/1",
+                "progress_percent": 88.89,
+                "all_task": 45,
+                "closed_task": 40,
+                "opened_task": 5,
+                "issue": [
+                    {
+                        "title": "Module 1 - Membuat tampilan Login",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://secure.gravatar.com/avatar/13f8ad8f5e45d958a7264558b3e2493b?s=80&d=identicon"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample lima"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample enam"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tujuh"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample delapan"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Module 2 - Membuat tampilan Register",
+                        "all_task": 8,
+                        "complete_task": 1,
+                        "total_percent": 12.50,
+                        "comment_count": 3,
+                        "commit_count": 10,
+                        "assigne": {
+                            "name": "Subhan Fauzi",
+                            "avatar_url": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/2085697/avatar.png"
+                        },
+                        "task_detail": [
+                            {
+                                "status": "[X]",
+                                "date": "12-04-2020",
+                                "content": "Task sample satu"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample dua"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample tiga"
+                            },
+                            {
+                                "status": "[ ]",
+                                "date": "12-04-2020",
+                                "content": "Task sample empat"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

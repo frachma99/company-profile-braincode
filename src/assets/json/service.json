@@ -1,0 +1,52 @@
+[
+    {
+        "service": "Mobile Apps Development",
+        "detail" : "Develop a custom application for various mobile devices such as : iOS, Android. Delivering the technical talent to build great apps and keep them running. ",
+        "details": {
+            "code": "mad",
+            "title": "Mobile Apps Development",
+            "subTitle": "The hard work behind simple apps",
+            "content": "Apps have fueled disruption, creating and transforming industries. In the process, they’ve made complex organizational problems – like curating vast amounts of content, or providing transportation on demand – seem effortless.",
+            "content2": "But in reality, behind every “simple” app is robust technology architecture and immaculate code, engineered to deliver a seamless experience.",
+            "content3": "Whether you’re looking to create amazing user experiences, streamline operations, or get an edge over competitors, Braincode offers the mobile app development expertise to help you get there. Leveraging our technical talents and strategic insights, we deliver rich experiences that spur brand growth."
+        }
+    },
+
+    {
+        "service": "Information System",
+        "detail" : "Develop a custom IT Solution for your various needs. Put the right technology solutions at the service of your business and your customers.",
+        "details": {
+            "code": "is",
+            "title": "Information System",
+            "subTitle": "How technology drives business in the digital era",
+            "content": "Once upon a time, your tech stack was a problem for tech people. But in a digital world, technology strategy is inseparable from business strategy.",
+            "content2": "Digital leaders rely on technology platforms to enable collaboration, agility, and a customer-first mindset. Technology expertise matters more than ever, but making the right tech choices is now a whole-of-business concern.",
+            "content3": "BrainCode excels at smartly architecting and swiftly developing experience solutions. Deploying a proprietary framework, our solutions architects define and create optimal solutions, with an unshakeable focus on business efficiency, user experience and business need."
+        }
+    },
+
+    {
+        "service": "Enterprise Solution",
+        "detail" : "Develop a solution for your company or organization ( ERP system ). Enterprise Resource Planning ( ERP ) is the integrated management of core business processes, often in real-time and mediated by software and technology.",
+        "details": {
+            "code": "es",
+            "title": "Enterprise Solution",
+            "content": "Develop a solution  for your company or organization ( ERP system ). Enterprise Resource Planning ( ERP ) is the integrated management of core business processes, often in real-time and mediated by software and technology.",
+            "content2": "ERP is usually referred to as a category of business-management software — typically a suite of integrated applications—that an organization can use to collect, store, manage, and interpret data from these many business activities.",
+            "content3": "ERP provides an integrated and continuously updated view of core business processes using common databases maintained by a database management system. ERP systems track business resources—cash, raw materials, production capacity—and the status of business commitments: orders, purchase orders, and payroll."
+        }
+    },
+
+    {
+        "service": "Ecommerce Website",
+        "detail" : "Develop e-commerce website to leverage your business and profit. We deliver on customer and business needs and build sites that sell.",
+        "details": {
+            "code": "ew",
+            "title": "Ecommerce Website",
+            "subTitle": "How development drives eCommerce success",
+            "content": "eCommerce businesses know that user experience and revenue go hand in hand. When users find shopping hard, slow, or confusing, they don’t convert and you don’t get paid.",
+            "content2": "That’s why your eCommerce site should be working hard for you – streamlining your business and making shopping effortless. But without a well-developed site, you’re trying to build a great experience on shaky foundations.",
+            "content3": "BrainCode has developed more than our share of high-performing eCommerce sites. We focus on delivering an experience users love, so you can get products off your shelves and into buyers’ carts."
+        }
+    }
+]

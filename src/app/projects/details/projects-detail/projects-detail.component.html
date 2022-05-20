@@ -1,0 +1,280 @@
+<!-- Detail Projects -->
+<h1>{{title}}</h1>
+<div class="container">
+    <img src="assets\background\login-bg.jpg" alt="sample">
+    <div *ngIf="codeName != 'cam'">
+        <!-- Main html -->
+        <h2>Background</h2>
+        <p>{{background}}</p>
+
+        <!-- E-Proc punya -->
+        <div *ngIf="codeName == 'e-proc'">
+            <img src="assets\background\login-bg.jpg" alt="sample">
+        </div>
+
+        <!-- Main html -->
+        <h2>Objectives</h2>
+        <p>{{objective}}</p>
+
+        <!-- E-Proc punya -->
+        <div *ngIf="codeName == 'e-proc'">
+            <img src="assets\background\login-bg.jpg" alt="sample">
+        </div>
+    </div>
+
+    <div *ngIf="codeName == 'im'">
+        <p>Data Processing NMS Internet Monitoring</p>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <!-- Cooperate Account Management -->
+    <div *ngIf="codeName == 'cam'" style="text-align: justify;">
+        <p>{{objective2}}</p>
+        <p>{{background}}</p>
+    </div>
+
+    <!-- GeISA -->
+    <div *ngIf="codeName == 'geisa'">
+        <ol>
+            <li>
+                Strategic purposes from Planning and Implementation.
+            </li>
+            <li>
+                Network Performance Enhancement/Monitoring.
+            </li>
+            <li>
+                To help Sales/Marketing strategic decision and also Business Performance Monitoring.
+            </li>
+        </ol>
+
+        <p>{{objective2}}</p>
+
+        <ol>
+            <li>
+                Review, This feature present the Location of All Company asset on Spatial Location periodically also
+                monitor All KPI on each asset location.
+            </li>
+            <li>
+                Filtering, Allowed user to make further data presentation in the Grouping Analysis scheme.
+            </li>
+            <li>
+                Thematics, Thematic analysis menu is an advanced menu that can be used after specifying parameters
+                in the Review menu, it can determine network conditions in the specified color scheme theme.
+            </li>
+            <li>
+                Map Editor, This Feature make user to draw their POI (Point of Interest) for their own business and.
+                This can used colaboratively, or personally.
+            </li>
+            <li>
+                Costumer Analysis, This Feature are show Costumer for Company in related Company asset in spatial location.
+            </li>
+        </ol>
+        <!-- Coba nanti di looping -->
+        <div class="row">
+            <div class="col">
+                <img class="card-6" src="assets\background\login-bg.jpg" alt="sample">
+            </div>
+            <div class="col">
+                <img class="card-6" src="assets\background\login-bg.jpg" alt="sample">
+            </div>
+            <div class="col">
+                <img class="card-6" src="assets\background\login-bg.jpg" alt="sample">
+            </div>
+        </div>
+        <p>
+            Data source of GeISA is consist of 5 important elements such as Network OSS for network traffic,
+            utililzation, and performance, Teradata for revenue, Lacima for BTS coordinates, Planet for BTS beamwidth and
+            azimuth, Bakosurtanal for border map in any geographical levels, and Marketing data for recharge share and
+            sales share. Those whole data are compiled using cron job with ETL process and stored in the database
+            automatically. Finally, all necessary information from database are presented in both map-based application
+            and dashboard one.
+        </p>
+    </div>
+
+    <!-- GAG NIKEL E-PROCUREMENT -->
+    <div *ngIf="codeName == 'e-proc'">
+        <p>{{objective2}}</p>
+
+        <ol>
+            <li>
+                Increase the value (value / quality) of the company
+            </li>
+            <li>
+                Facilitating the procurement process
+            </li>
+            <li>
+                Make data transparency so that it can be neater not to happen data redundancy
+            </li>
+        </ol>
+    
+        <p>
+            As a mobile Application, GAG e-Procurement need the transactional data. Here we describe some basic data
+            transactions that occur on GAG e-Procurement Applications :
+        </p>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <!-- Mandiri Sales KPI Engine -->
+    <div *ngIf="codeName == 'mandiri-kpi'">
+        <ol>
+            <li>
+                Automation of KPI calculations, Incentives & Sales Evaluations
+            </li>
+    
+            <li>
+                The results of the automation of KPI, Incentives and Evaluation can become printable reports (Hardcopy)
+                for report / letter needs
+            </li>
+    
+            <li>
+                Presenting various integrated data sources
+            </li>
+        </ol>
+
+        <h2>Dashboard Presentation:</h2>
+        <ul>
+            <li>
+                Sales Rank and Point Calculation (on Main Page)
+            </li>
+            <img src="assets\background\login-bg.jpg" alt="sample">
+            <li>
+                Audit Trails for Point, Incentive Calculation and Data/Rules Changes
+            </li>
+            <img src="assets\background\login-bg.jpg" alt="sample">
+        </ul>
+        <h2>Data Processing</h2>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <div *ngIf="codeName == 'ipran'">
+        <ul>
+            <li>
+                Scalability and Reliability: Replacing point-to-point links by a distributed IP network will provide an
+                alternative path for more than one network controller, thereby increasing reliability and scalability.
+            </li>
+            <li>
+                The OSPF alarm notification provides information on the end and condition of a link.
+            </li>
+            <li>
+                Notification of link down per region, name and capacity.
+            </li>
+            <li>
+                Visualize the topology of each region be it the utilization, metro-e and the performance of each node.
+            </li>
+        </ul>
+        <p>
+            This table is ifTable single, this data is performance data port. this data is feeding every 5 minutes.
+            The source data is obtained from OSSEra
+        </p>
+        <h2>Data Processing IPRAN</h2>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <!-- BIG DATA -->
+    <div *ngIf="codeName == 'big-data'">
+        <ol>
+            <li>
+                Validation Automation: Interpolation Output
+            </li>
+            <li>
+                Network Performance KPI Monitoring 
+            </li>
+            <li>
+                Aggregate for KPI Performance Focusing on VAS (Value Added Service)
+            </li>
+        </ol>
+        <p>{{objective2}}</p>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <!-- GAG NIKEL E-OPERATION -->
+    <div *ngIf="codeName == 'e-operation'">
+        <h2>Data Processing</h2>
+        <p>
+            As web-based and mobile Application, GAG e-Operation need the transactional data. Here we describe some
+            basic data transactions that occur on GAG e-Operation  :
+        </p>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <!-- GAG E-Finance -->
+    <div *ngIf="codeName == 'e-finance'">
+        <ol>
+            <li>
+                Replace the current software, Jurnal.id to be more flexible, light, and customize-able software for
+                mining company that Jurnal.id couldn’t handle.
+            </li>
+            <li>
+                Record all financial accounting and management report into one database with more accurate including
+                history, payment, etc., that could be integrate to other GAG Application and Software Project (GAG E-Finance and GAG E-Procurement)
+            </li>
+            <li>
+                Manage the role of user based on their level in the company
+            </li>
+            <li>
+                Display summary of all transaction and records into chart, diagram, and/or table, that user able to download in application
+            </li>
+        </ol>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+        <h2>Dashboard Appearance</h2>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <!-- NMS IP Backbone -->
+    <div *ngIf="codeName == 'ip-backbone'">
+        <ol>
+            <li>
+                Provides dashboard visualization with Monitoring All over Indonesia This dashboard is based on an
+                auto-discovery algorithm that supports rooting.
+            </li>
+            <li>
+                Router technology that experiences link-downs and other routers.
+            </li>
+            <li>
+                Provides Alarm Data Presentation for all core / back-bone routers with a fifth of a five minute
+                granularity.
+            </li>
+        </ol>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+        <p>
+            Impact of the Dashboard to monitor utilization, link down, router performance and export data. This shows
+            all backbone routers in all of Indonesia.
+        </p>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <!-- Mandiri NBS Automation -->
+    <div *ngIf="codeName == 'nbs-automation'">
+        <ul>
+            <li>
+                Minimize decision time
+            </li>
+            <li>
+                Making data collection activities not carried out by machines
+            </li>
+            <li>
+                Lighten the work of division staff at Mandiri Directorate
+            </li>
+        </ul>
+        <p>Next is the data processing process that occurred in the Mandiri NBS Automation Project</p>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+
+    <!-- NMS Availability -->
+    <div *ngIf="codeName == 'nms-avail'">
+        <ul>
+            <li>
+                Help to monitor network condition on near realtime (per 5 minutes data flow)
+            </li>
+    
+            <li>
+                To help configurate and control action for responsive action on network availability condition 
+            </li>
+        </ul>
+    
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    
+        <h2>Data Processing NMS Availability</h2>
+        <img src="assets\background\login-bg.jpg" alt="sample">
+    </div>
+</div>
